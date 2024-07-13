@@ -279,6 +279,9 @@ footer input[type="text"],footer input[type="email"],footer textarea{
 
 }
 /*  Responsive Design */
+.hide{
+  display: none;
+}
 
 @media  screen and (max-width:576px) {
   .skills-container, .resume-container ,.banner,  footer{
@@ -290,20 +293,87 @@ footer input[type="text"],footer input[type="email"],footer textarea{
   footer{
     padding: 20px;
   }
- 
+ .header{
+  background-image: none;
+ }
 
   .banner{
-    margin: 10px;
-    background-color: aqua;
+    /* margin: 10px; */
+    margin: 0px;
+
     height: auto;
-    width: 576px;
-    border: 2px solid red;
+    width:98%;
+   
+  
+    
 
 
   }
+  .banner-profile-pic{
+    margin-top: 20px;
+    max-width:98% ;
+    margin-left: 20px;
+    
+  }
+  .banner-content{
+padding: 15px;
 
+  }
+  .banner .btn-group{
 
+    display: flex;
+    flex-direction: column;
 
+  }
+  .banner .btn-primary{
+    margin:15px ;
+    
+  }
+  .banner-title{
+    font-size: 50px;
+
+  } 
+
+  .banner-description{
+    font-size: 18px;
+
+  }
+nav{
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+ul{
+  margin-top: 10px;
+margin-right: 25px;
+}
+nav .dark-2{
+  display: none;
+}
+nav h3{
+  margin-left: 25px;
+
+}
+.about-container{
+  border: 3px solid red;
+  width: 90%;
+  padding: 20px;
+}
+.about-sections{
+  width: 100%;
+  height: auto;
+}
+.about-items{
+  flex-direction: column;
+  gap: 15px;
+}
+.about-title{
+  font-size: 28px;
+  font-weight:bolder;
+}
+
+/* What I DO */
 
 
 
